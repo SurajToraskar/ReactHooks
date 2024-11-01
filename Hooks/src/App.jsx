@@ -7,6 +7,9 @@ import UseMemo from "./hooks/UseMemo/UseMemo";
 import UseCallback from "./hooks/UseCallback/UseCallback";
 import Profile from "./components/Profile";
 import Footer from "./components/Footer";
+import UseReducer from "./hooks/UseReducer/UseReducer";
+import UseLayoutEffect from "./hooks/UseLayoutEffect/UseLayoutEffect";
+import CustomHook from "./hooks/CustomHook/CustomHook";
 export default function App() {
   return (
     <>
@@ -15,8 +18,11 @@ export default function App() {
       {/* <UseRef /> */}
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
-      <Profile />
-      <Footer />
+      {/* <Profile />
+      <Footer /> */}
+      {/* <UseReducer /> */}
+      {/* <UseLayoutEffect /> */}
+      <CustomHook />
     </>
   );
 }
